@@ -1,15 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Jonnys super #{title} website!!!   ¯\_(ツ)_/¯
-  p A BIG Welcome to #{title}
-
-form(method="POST", action="/")
-  input(type="hidden", name="_method", value="PUT")
-  p name
-    input(type="text", name="username")
-  p password
-    input(type="text", name="password")
-  p
-    input(type="submit")
+  h1 Jonnys secret keeper!!!
+  p ¯\_(ツ)_/¯
+  #container
+    form(action="/", method="post")
+      h2 Login and tell me your SECRETS:
+      p Name:
+      input(type="text", id="Name", name="Name")
+      p Password:
+      input(type="password", id="Password", name="Password")
+      p
+      input(type="submit" value="Login")
