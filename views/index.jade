@@ -1,6 +1,13 @@
-extends layout
+
+extends ../layout
 
 block content
-  h1= title
-  p Jonnys super #{title} website!!!   ¯\_(ツ)_/¯
-  p A BIG Welcome to #{title}
+    h1= title
+    form(name="add-estimation", method="post")
+        div.input
+            span.label Title
+            input(type="text", name="title")
+        div.actions
+            input(type="submit", value="add")
+
+p ¯\_(ツ)_/¯
