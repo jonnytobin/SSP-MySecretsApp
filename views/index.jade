@@ -2,11 +2,12 @@ extends layout
 
 block content
   #container
-    form(action="/secrets", class="txt" method="post")
-      p Name:
-      input(type="text", id="Name", name="Name")
-      p Password:
-      input(type="password", id="Password", name="Password")
+    form(action="/secrets", class="form-inline" method="post")
+      h2 Sign in
       p
-      input(type="submit" value="Login")
+      input(type="text", class="form-control", id="exampleInputName3", name="Name" placeholder="Username")
+      p
+      input(type="password", class="form-control" id="exampleInputPassword3", name="Password" placeholder="Password")
+      p
+      input(type="submit" class="btn btn-default" value="Login")
      
