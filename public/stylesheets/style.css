@@ -1,7 +1,7 @@
 body {
   background-image:url('/images/Secrets_background_v01_t001.jpg');
   background-repeat:no-repeat;
-  background-size:contain;
+  background-size:cover;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   /*border: black 2px solid;*/
