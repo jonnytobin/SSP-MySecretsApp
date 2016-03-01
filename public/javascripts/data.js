@@ -1,5 +1,5 @@
-var secretsList {
+var secretsList = {
     secretText : "This is the first secret",
-    secretText : "This is the second secret",
-    secretText : "This is the third secret"
-}
+    secretText2 : "This is the second secret",
+    secretText3 : "This is the third secret"
+};

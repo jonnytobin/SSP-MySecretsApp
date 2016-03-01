@@ -1,10 +1,8 @@
 extends layout
 
 block content
-  h1 My Secrets Keeper!!!
   #container
     form(action="/secrets", method="post")
-      h2 Login and tell me your SECRETS:
       p Name:
       input(type="text", id="Name", name="Name")
       p Password:
