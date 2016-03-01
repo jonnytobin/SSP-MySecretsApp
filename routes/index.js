@@ -13,13 +13,11 @@ router.get('/secrets', function(req, res, next) {
 
 // If we get a POST request for /name
 router.post('/secrets', function(req, res, next) {
-  // SELECT password from DB where username='req.body.yourName'
-
   if (req.body.Password == "password") {
     res.render('secrets', {Name: req.body.Name, Password: req.body.Password});
   }
   else {
-      res.redirect('/index?Name=Tom');
+      res.render('error');
   }
 });
 
