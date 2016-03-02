@@ -1,5 +1,5 @@
 body {
-  background-image:url('/images/Secrets_background_v01_t001.jpg');
+  background-image:url('/images/Background_take_02.jpg');
   background-repeat:no-repeat;
   background-size:cover;
   padding: 50px;
@@ -19,7 +19,7 @@ a {
 #container {
   width:100%;
   margin-top:20%;
-  padding-left:20%;
-  padding-right:20%;
+  padding-left:30%;
+  padding-right:30%;
 }
 
